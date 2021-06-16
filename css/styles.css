@@ -4,7 +4,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --button-bg: #f5f4fa;
-  --button-active-color: #ffffff;
+  --white-active-color: #ffffff;
   --fotter-hero-bg: #2f303a;
 }
 
@@ -86,7 +86,7 @@ body {
 
 .hero-button {
   font-family: inherit;
-  color: var(--button-active-color);
+  color: var(--white-active-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -102,7 +102,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: var(--white-active-color);
 }
 /* -----------------------Features------------------------- */
 .features-title {
@@ -153,7 +153,7 @@ body {
 
 .portfolio-button:focus,
 .portfolio-button:hover {
-  color: var(--button-active-color);
+  color: var(--white-active-color);
   background-color: var(--accent-color);
 }
 
@@ -174,7 +174,7 @@ body {
 .footer {
   background-color: var(--fotter-hero-bg);
 
-  color: #ffffff;
+  color: var(--white-active-color);
 }
 
 .footer .logo {
