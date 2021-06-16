@@ -5,7 +5,7 @@
   --accent-color: #2196f3;
   --button-bg: #f5f4fa;
   --button-active-color: #ffffff;
-  --fotter-bg: #2f303a;
+  --fotter-hero-bg: #2f303a;
 }
 
 h1,
@@ -15,6 +15,14 @@ h4,
 h5,
 h6 {
   color: var(--title-text-color);
+}
+
+.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 body {
@@ -73,7 +81,7 @@ body {
 }
 /* -----------------Hero----------------------------------- */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--fotter-hero-bg);
 }
 
 .hero-button {
@@ -163,19 +171,29 @@ body {
 }
 
 /* ----------------------footer-------------- */
-footer {
-  background-color: var(--fotter-bg);
-}
+.footer {
+  background-color: var(--fotter-hero-bg);
 
-footer .logo {
   color: #ffffff;
 }
 
-.contact {
+.footer .logo {
+  color: inherit;
+}
+
+.footer-contact {
   font-style: normal;
-  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.contact .link {
-  color: var(--main-text-color);
+.footer .link {
+  color: inherit;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
 }
