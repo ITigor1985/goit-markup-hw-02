@@ -1,11 +1,11 @@
 :root {
-  --main-text-color: #757575;
-  --secondary-text-color: #212121;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --button-bg: #f5f4fa;
-  --white-active-color: #ffffff;
-  --fotter-hero-bg: #2f303a;
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --button-bg: #f5f4fa;
+    --white-active-color: #ffffff;
+    --fotter-hero-bg: #2f303a;
 }
 
 h1,
@@ -14,186 +14,199 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--title-text-color);
+    color: var(--title-text-color);
 }
 
 .hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 body {
-  color: var(--main-text-color);
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
-  list-style: none;
+    list-style: none;
 }
 
 .logo {
-  color: var(--title-text-color);
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  font-weight: 700;
-  text-decoration: none;
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .logo-web {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .site-nav .link {
-  color: var(--secondary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .contact .link {
-  color: inherit;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contact .link:hover,
 .contact .link:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
+
+
 /* -----------------Hero----------------------------------- */
+
 .hero {
-  background-color: var(--fotter-hero-bg);
+    background-color: var(--fotter-hero-bg);
 }
 
 .hero-button {
-  font-family: inherit;
-  color: var(--white-active-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+    font-family: inherit;
+    color: var(--white-active-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-active-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-active-color);
 }
+
+
 /* -----------------------Features------------------------- */
+
 .features-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .features-text {
-  font-size: 14px;
-  line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 }
+
+
 /* -------------------------Team--------------------------- */
+
 .work-title,
 .team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .team-text {
-  font-size: 16px;
-  line-height: 1.19;
+    font-size: 16px;
+    line-height: 1.19;
 }
+
 
 /*------------------Portfolio----------------------------- */
 
 .portfolio .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .portfolio-button {
-  color: var(--secondary-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  background-color: var(--button-bg);
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: var(--button-bg);
+    cursor: pointer;
 }
 
 .portfolio-button:focus,
 .portfolio-button:hover {
-  color: var(--white-active-color);
-  background-color: var(--accent-color);
+    color: var(--white-active-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-text-color);
 }
 
-/* ----------------------footer-------------- */
-.footer {
-  background-color: var(--fotter-hero-bg);
 
-  color: var(--white-active-color);
+/* ----------------------footer-------------- */
+
+.footer {
+    background-color: var(--fotter-hero-bg);
+    color: var(--white-active-color);
 }
 
 .footer .logo {
-  color: inherit;
+    color: inherit;
 }
 
 .footer-contact {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer .link {
-  color: inherit;
-  opacity: 0.6;
-  text-decoration: none;
+    color: inherit;
+    opacity: 0.6;
+    text-decoration: none;
 }
 
 .footer .link:hover,
 .footer .link:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
